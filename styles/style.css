@@ -15,6 +15,7 @@ font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
 font-size: 18px;
 background-color: #1b1919;
 display: flex;
+align-items: end;
 }
 h1,
 h2,
@@ -36,11 +37,11 @@ list-style: none;
 .content {
 display: flex;
 justify-content: center;
-align-items: end;
 gap: 30px;
 width: 1140px;
 height: 534px;
 margin: 133px 30px;
+align-items: end;
 }
 .search-form {
 display: flex;
