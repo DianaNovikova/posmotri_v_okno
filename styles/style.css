@@ -48,7 +48,7 @@ ol {
   justify-content: center;
   gap: 30px;
   width: 1140px;
-  /*margin: 133px 30px;*/
+  margin: 133px 30px;
   align-items: end;
 }
 
@@ -145,6 +145,7 @@ ol {
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
+  margin-bottom: 6px;
 }
 
 .content__video-card-description {
@@ -222,7 +223,8 @@ ol {
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  border: 1px solid #FFF;
+  outline: 1px solid #FFF;
+  position: relative;
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::before {
@@ -231,8 +233,7 @@ ol {
   background: #FFF;
   display: block;
   content: "";
-  margin: 1.5px;
-  
+  margin: 2px;
 }
 
 .button {
